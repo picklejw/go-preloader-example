@@ -27,7 +27,7 @@ In this benchmark, a Go-based optimized server was compared to a traditional sta
 > These benchmarks measure network requests only, without executing JavaScript in the browser.
 
 ## TODO
-- The staggered request does not share the same TCP connection, these tests should be redone to reuse the same connection for better real world comparison.
+- ~~ The staggered request does not share the same TCP connection, these tests should be redone to reuse the same connection for better real world comparison. ~~
 - There should be a test case developed for comparing to using hydration techniques with a JavaScript runtime to compare actual benefits.
 
 ## Results
